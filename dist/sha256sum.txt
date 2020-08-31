@@ -1,0 +1,2 @@
+9198a4d593728879528c0a8fbbbbe0ba65c8b501a5e8f0d47b713df91de2e923  dtbo-4k.img
+5336ec0a97b90829dcf503e003ab0ca880eaa2ed766e003e7ae3c1ff98c8df19  hwcomposer.amlogic-4k.so
