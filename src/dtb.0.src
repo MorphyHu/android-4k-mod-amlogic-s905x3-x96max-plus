@@ -1,0 +1,42 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+
+	fragment@0 {
+		target-path = [2f 00];
+
+		__overlay__ {
+
+			dummy-battery {
+				compatible = "amlogic, dummy-battery";
+				status = "okay";
+			};
+		};
+	};
+
+	fragment@1 {
+		target-path = [2f 00];
+
+		__overlay__ {
+
+			dummy-charger {
+				compatible = "amlogic, dummy-charger";
+				status = "okay";
+			};
+		};
+	};
+
+	fragment@2 {
+		target = <&meson_fb>;
+
+		__overlay__ {
+			sceext_4k = "20200825 1946\n";
+			display_mode_default = "2160p60hz";
+			display_size_default = <0xf00 0x870 0xf00 0x10e0 0x20>;
+			mem_size = <0x800000 0x6600000 0x100000 0x100000 0x800000>;
+			4k2k_fb = <1>;
+		};
+	};
+};
+

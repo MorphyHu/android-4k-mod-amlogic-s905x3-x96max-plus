@@ -1,0 +1,18 @@
+dt_table_header:
+               magic = d7b7ab1e
+          total_size = 743
+         header_size = 32
+       dt_entry_size = 32
+      dt_entry_count = 1
+   dt_entries_offset = 32
+           page_size = 2048
+             version = 1
+dt_table_entry[0]:
+             dt_size = 679
+           dt_offset = 64
+                  id = 00000000
+                 rev = 00000000
+           custom[0] = 00000000
+           custom[1] = 00000000
+           custom[2] = 00000000
+           custom[3] = 00000000
